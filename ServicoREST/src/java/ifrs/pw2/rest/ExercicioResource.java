@@ -12,7 +12,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
 @Path("/Exercicios")
-//@Produces(MediaType.APPLICATION_JSON + ";charset=utf-8")
 @Consumes(MediaType.APPLICATION_JSON + ";charset=utf-8")
 public class ExercicioResource {
 	private ExercicioService exercicioService = new ExercicioService();
